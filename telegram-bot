@@ -1,5 +1,0 @@
-telegram-bot/
-│
-├─ index.py          # Bot ka main code (jo maine diya)
-├─ requirements.txt  # Libraries list
-└─ README.md         # Optional, instructions ke liye
