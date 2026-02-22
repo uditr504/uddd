@@ -2,8 +2,8 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pymongo import MongoClient
 
-TOKEN = "YOUR_BOT_TOKEN"
-OWNER_ID = 123456789  # 👈 Apna Telegram ID daalo
+TOKEN = "8258736243:AAHW-3sRw-Xll94C0LouNEQFM1T9S50T318"
+OWNER_ID = 7342896170  # 👈 Apna Telegram ID daalo
 
 MONGO_URL = "mongodb+srv://premashilarana681_db_user:GMucI9xhkmvNUOX2@cluster0.8mlerkv.mongodb.net/?appName=Cluster0"
 
@@ -46,7 +46,7 @@ def start(message):
     
     join_update_btn = InlineKeyboardButton(
         "📢 JOIN UPDATE CHANNEL",
-        url="https://t.me/YOUR_UPDATE_CHANNEL"
+        url="https://t.me/UD_Botz"
     )
 
     markup.add(add_channel_btn)
